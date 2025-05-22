@@ -9,3 +9,39 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.container{
+    width: 100px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.traffic-light{
+    background: black;
+    padding: 10px;
+    display: inline-block;
+    margin: auto;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+.red{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background: red;
+}
+.yellow{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background: yellow;
+}
+.green{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background: green;
+}
+.glow{
+    box-shadow: 0px 0px 15px 8px #ebcb58;
+}
